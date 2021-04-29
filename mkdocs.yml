@@ -1,0 +1,22 @@
+site_name: Data Structures and Algorithms
+site_author: "Justin-Anthony Joco"
+
+repo_name: justinjoco/dstructs-algo
+repo_url: https://github.com/justinjoco/dstructs-algo
+
+copyright:   'Copyright &copy; 2021 Justin-Anthony Joco'
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+  features:
+    - navigation.sections
+    - navigation.tabs
+nav:
+  - Overview: index.md
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
