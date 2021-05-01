@@ -15,7 +15,52 @@ theme:
     - navigation.tabs
 nav:
   - Overview: index.md
-  
+  - Concrete and Abstract Data Types:
+    - Overview: dstruct-basic/index.md
+    - Concrete Data Types:
+      - Dynamic Arrays: dstruct-basic/arrays.md
+      - Linked Lists: dstruct-basic/linkedlist.md
+      - Lookup Tables: dstruct-basic/tables.md
+    - Abstract Data Types:
+      - Stacks: dstruct-basic/stacks.md
+      - Queues: dstruct-basic/queues.md
+      - Sets: dstruct-basic/sets.md
+      - Maps: dstruct-basic/tables.md
+  - Searching and Sorting:
+    - Overview: sorting/index.md
+    - Sorting:
+      - Insertion Sort: sorting/insertion.md
+      - Quicksort: sorting/quick.md
+      - Mergesort: sorting/merge.md
+      - Shellsort: sorting/shell.md
+      - Bucket/radix sort: sorting/bucket.md
+    - Searching:
+      - Linear search: sorting/linear.md
+      - Binary search: sorting/binary.md
+  - Trees:
+    - Overview: trees/index.md
+    - Binary Search Trees:
+      - Traversals: trees/traversals.md
+      - Special trees: trees/special.md
+      - Serializing:  trees/serialize.md
+    - Heaps:
+      - Min heaps: trees/minheap.md
+      - Max heaps: trees/maxheap.md
+  - Graphs:
+    - Overview: graphs/index.md
+    - Unidirectional graphs:  graphs/unidirect.md
+    - Directional graphs:  graphs/direct.md
+    - Adjacency lists and matrices: graphs/adjacent.md
+    - Traversals:
+      - Depth-First Search: graphs/dfs.md
+      - Breadth-First Search: graphs/bfs.md
+    - Pathfinding:
+      - Dijkstra: graphs/dijkstra.md
+      - Bellman-Ford: graphs/bellman.md
+  - Other Techniques:
+    - Dynamic programming: misc/dynamic.md
+    - Backtracking: misc/backtrack.md
+
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
